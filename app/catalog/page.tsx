@@ -1,0 +1,1 @@
+import {Catalog} from '@/components/UI';export const metadata={title:'Каталог техники'};export default function Page(){return <div className="wrap page"><div className="crumb">Главная / Каталог</div><div className="eyebrow">АГРОТРАК / КАТАЛОГ</div><h1>Каталог техники</h1><p className="intro">Тракторы и сельскохозяйственное оборудование для разных задач.</p><Catalog/></div>}

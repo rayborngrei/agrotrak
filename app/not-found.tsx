@@ -1,0 +1,1 @@
+import Link from 'next/link';export default function NotFound(){return <div className="wrap page empty"><div className="eyebrow">ОШИБКА 404</div><h1>Страница не найдена</h1><p>Возможно, адрес изменился. Найдите нужную технику в каталоге.</p><Link className="button dark" href="/catalog">Перейти в каталог ↗</Link></div>}
